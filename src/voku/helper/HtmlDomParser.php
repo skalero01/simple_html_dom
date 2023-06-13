@@ -735,7 +735,7 @@ class HtmlDomParser extends AbstractDomParser
             )
         );
 
-        $content = $this->decodeHtmlEntity($content, $multiDecodeNewHtmlEntity);
+        //$content = $this->decodeHtmlEntity($content, $multiDecodeNewHtmlEntity);
 
         return self::putReplacedBackToPreserveHtmlEntities($content, $putBrokenReplacedBack);
     }
